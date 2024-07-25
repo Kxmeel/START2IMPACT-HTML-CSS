@@ -1,0 +1,40 @@
+section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom:0;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+
+.links-left {
+  height:200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ 
+ }
+
+ .links-effect {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+   }
+
+ .links-effect:hover {
+  background-color: rgba(11, 119, 65, 0.4);
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px black inset;
+  transition: color 0.2s;
+
+
+
+ }
