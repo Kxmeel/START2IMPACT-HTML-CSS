@@ -7,7 +7,9 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 100;
  
+  
   
 }
 
@@ -26,14 +28,15 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.2s;
+  
    }
 
  .links-effect:hover {
-  background-color: rgba(11, 119, 65, 0.4);
+  background-color: rgb(78, 122, 78, 0.50);
   border-radius: 50%;
   box-shadow: 0px 0px 5px black inset;
   transition: color 0.2s;
+ 
 
 
 

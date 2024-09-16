@@ -1,8 +1,159 @@
 main {
+  color: #ffffff;
+  margin-top: 30px;
+   
+   
+
+
+
+
+
+}
+
+.thor {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  width: 200px;
+  transition: rotate 0.5s;
+}
+
+.thor:hover {
+  rotate: 10deg;
+  transition: rotate 0.5s;
+}
+
+h1 {
+  font-size: 150px;
+  line-height: 120px;
+  text-align: center;
+ 
+
+}
+
+
+
+
+
+.intro {
+  font-size: 30px;
+   width: 700px;
+  text-align: center;
+  margin-top: 0;
+  transition: rotate 1s;
   color: white;
+  font-weight: 100;
+}
+
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 860px;
+  margin-top: 0;
+ 
+
+
+ 
+
+  
+
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+
+ 
+
+}
+
+
+
+.about-me-section {
+ font-weight: 100;
+ display: flex;
+ justify-content: center;
+ margin-top: 100px;
+ height: 860px;
+
+
+ 
+
+}
+
+.about-me{
+text-align: left;
+margin-left: 50px;
+
+
+}
+
+
+
+
+.my-picture {
+  width: 500px;
+ border-radius: 20px;
+opacity: 0.85;
+}
+
+
+
+.bio {
+  font-size: 30px;
+   width: 700px;
+
+ 
+ 
+ 
+ 
+  
+}
+
+.html-css-picture {
+  width: 200px;
+}
+
+.skills {
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 860px;
+
+}
+
+.skills-title {
   text-align: center;
 }
 
-.success {
-border-radius: 25px;
+.content {
+  display: flex;
+
 }
+
+.css-html-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  font-weight: 100;
+  font-size: 20px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.50);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20PX;
+  width: 600px;
+}
+
+
+
+
+
+
+
+

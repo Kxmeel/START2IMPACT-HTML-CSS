@@ -1,5 +1,6 @@
 
 .header {
+  font-family: "Kanit";
   position: fixed;
   top: 0;
   left:0;
@@ -7,26 +8,35 @@
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content:space-between;
+  padding-left: 320px;
+  padding-right: 320px;
   font-weight:200;
   font-size: 25px;
   color: white;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.95),rgba(11, 119, 65, 0.95));
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to right, rgb(0, 0, 0),rgba(10, 35, 10, 0.97));
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
+  z-index: 100;
   
 
 }
 
-span {
-  color:rgb(11, 119, 65);
+.kamil-logo {
+  color:rgb(78, 122, 78);
   transition: color 0.2s;
+
 
 }
 
 a {
   
   text-decoration: none;
+
+}
+
+.logo-effect {
   color: white;
+  transition: color 0.2s;
 }
 
 
@@ -36,44 +46,61 @@ a {
   width: 300px;
   align-items: center;
   justify-content: space-around;
+  transition: text-shadow, color 0.2s;
 }
 
 .pages-effect {
   text-decoration: none;
   color: white;
-  transition: color 0.2s;
   padding: 5px;
+  transition: box-shadow, color 0.2s;
   
   
  
 }
 
-.about {
-  color: rgb(11, 119, 65);
-  text-shadow: 0px 0px 5px   rgb(0, 0, 0);
-  padding: 4px;
-  box-shadow: 0 3px  rgb(11, 119, 65);
+.underline-effect {
+  color:rgb(78, 122, 78);
+  padding-top: 24.75px;
+  padding-bottom: 24.75px;
+  box-shadow: 0px 2px  rgb(78, 122, 78);
+  transition: box-shadow, color 0.2s;
+ 
 }
+
+
+ 
+ 
+
 
 
 .logo-effect:hover {
 
-  color: rgb(11, 119, 65);
-  text-shadow: 0px 0px 5px   rgb(0, 0, 0);
+  color:rgb(78, 122, 78);
+
+  transition: color 0.2s;
+ 
+
 
   
 }
 
 .pages-effect:hover {
-  color: rgb(11, 119, 65);
-  text-shadow: 0px 0px 5px   rgb(0, 0, 0);
+  color: rgb(78, 122, 78);
+  transition: box-shadow, color 0.2s;
+  box-shadow: 0px 2px  rgb(78, 122, 78);
+  
+  padding-top: 24.75px;
+  padding-bottom: 24.75px;
+
+  
+  
 }
+
+
 
 
 a:hover span {
 color: white;
-}
-
-a:active {
-  
+transition: color 0.2s;
 }
